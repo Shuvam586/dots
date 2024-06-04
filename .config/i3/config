@@ -139,16 +139,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym j resize shrink width 5 px or 5 ppt
+        bindsym k resize grow height 5 px or 5 ppt
+        bindsym l resize shrink height 5 px or 5 ppt
+        bindsym semicolon resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -195,15 +195,16 @@ assign [class="Spotify"] $ws3
 
 bindsym $mod+d exec rofi -show drun
 
-exec_always feh --no-fehbg --bg-scale ~/.config/i3/background.jpg
+exec_always feh --no-fehbg --bg-scale ~/wallpapers/island_sunset.jpg
 
 bindsym $mod+l exec loginctl lock-session
 bindsym $mod+z exec rofi -show window
 
-exec_always --no-startup-id picom -f
+exec_always picom -f --corner-radius 9
 
 # figure out gap er ei ghapla ta pore
-gaps inner 5px
+gaps inner 7px
+gaps outer 2px
 
 # rounded corners
 
@@ -223,5 +224,5 @@ gaps inner 5px
 
 # default_floating_border pixel 1
 
-for_window [class="^.*"] border pixel 1
-new_window pixel 1
+for_window [class="^.*"] border pixel 0
+new_window pixel 0

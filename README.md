@@ -1,5 +1,6 @@
-# mint/ubuntu/plasma config files
+# files of the dots
 
-![japan_sundor_hochche_bhai](./.config/rice.png "lmao trolley" )
+![welcome to the rice fields mf](./rice1.png "rice1" )
+![welcome to the rice fields mf (again)](./rice2.png "rice2" )
 
-just saving some config files here for now. baki sob pore korbo
+this is getting fun now
