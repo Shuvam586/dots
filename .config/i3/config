@@ -200,7 +200,7 @@ exec_always feh --no-fehbg --bg-scale ~/wallpapers/island_sunset.jpg
 bindsym $mod+l exec loginctl lock-session
 bindsym $mod+z exec rofi -show window
 
-exec_always picom -f --corner-radius 9
+exec_always picom
 
 # figure out gap er ei ghapla ta pore
 gaps inner 7px
