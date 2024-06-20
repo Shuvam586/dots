@@ -4,3 +4,9 @@
 ![welcome to the rice fields mf (again)](./rice2.png "rice2" )
 
 this is getting fun now
+
+i3
+neofetch
+picom
+polybar
+rofi
