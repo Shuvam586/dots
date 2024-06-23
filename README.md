@@ -2,4 +2,4 @@
 
 ![welcome to the rice fields mf](./rice1.png "rice1" )
 
-some choto changes 
+notun kore polybar korlam
